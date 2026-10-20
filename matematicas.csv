@@ -1,15 +1,103 @@
 ﻿lista,termino,definicion
-Números y operaciones,Numerador,Número de arriba de una fracción; indica cuántas partes se toman.
-Números y operaciones,Denominador,Número de abajo de una fracción; indica en cuántas partes iguales se divide el entero.
-Números y operaciones,Fracción impropia,"Fracción cuyo numerador es mayor o igual que el denominador, como 7/4."
-Números y operaciones,Número mixto,"Número formado por un entero y una fracción, como 1 3/4."
-Números y operaciones,Porcentaje,Cantidad expresada como una parte de cien; 25 % equivale a 25/100.
-Números y operaciones,Razón,"Comparación entre dos cantidades mediante una división, como 3 : 5."
-Números y operaciones,Proporción,"Igualdad entre dos razones, como 2/3 = 4/6."
-Geometría,Perímetro,Longitud total del contorno de una figura plana.
-Geometría,Área,Medida de la superficie que ocupa una figura plana; se expresa en unidades cuadradas.
-Geometría,Volumen,Espacio que ocupa un cuerpo; se expresa en unidades cúbicas.
-Geometría,Radio,Segmento que une el centro de un círculo con cualquier punto de la circunferencia.
-Geometría,Diámetro,Segmento que pasa por el centro del círculo y une dos puntos de la circunferencia; mide el doble del radio.
-Geometría,Hipotenusa,"Lado más largo de un triángulo rectángulo, opuesto al ángulo recto."
-Geometría,Ángulo recto,Ángulo que mide exactamente 90°.
+1 · Números y operaciones básicas,Suma,Operación que reúne cantidades. Ejemplo: 4 + 3 = 7.
+1 · Números y operaciones básicas,Resta,Operación que permite quitar una cantidad o encontrar una diferencia. Ejemplo: 9 − 5 = 4.
+1 · Números y operaciones básicas,Multiplicación,"Para números enteros positivos, puede entenderse como una suma repetida. Ejemplo: 3 × 4 = 12."
+1 · Números y operaciones básicas,División,Operación que permite repartir en partes iguales o determinar cuántas veces cabe una cantidad en otra. Ejemplo: 12 ÷ 3 = 4.
+1 · Números y operaciones básicas,Producto,"Resultado de una multiplicación. En 3 × 4 = 12, el producto es 12."
+1 · Números y operaciones básicas,Cociente,"Resultado de una división. En 12 ÷ 3 = 4, el cociente es 4."
+1 · Números y operaciones básicas,Residuo o resto,"Cantidad que sobra en una división de números enteros. Al dividir 14 entre 4, el cociente entero es 3 y el residuo es 2."
+1 · Números y operaciones básicas,Número entero,"Número sin parte fraccionaria: por ejemplo, −3, 0, 8."
+1 · Números y operaciones básicas,Número positivo,Número mayor que cero. Ejemplo: 5.
+1 · Números y operaciones básicas,Número negativo,Número menor que cero. Ejemplo: −5.
+1 · Números y operaciones básicas,Valor absoluto,Distancia de un número al cero en la recta numérica. Ejemplo: |−5| = 5.
+1 · Números y operaciones básicas,Factor,"Número que se multiplica por otro para obtener un producto. En 3 × 4 = 12, los factores son 3 y 4."
+1 · Números y operaciones básicas,Múltiplo,"Resultado de multiplicar un número por un entero. Por ejemplo, 12 es múltiplo de 3."
+1 · Números y operaciones básicas,Orden de operaciones,"Reglas para decidir qué calcular primero: agrupaciones, potencias y raíces, multiplicaciones y divisiones, y finalmente sumas y restas. Las operaciones del mismo nivel se hacen de izquierda a derecha."
+"2 · Fracciones, decimales y porcentajes",Fracción,"Expresión de una división o relación entre cantidades. Por ejemplo, ¾ puede representar tres de cuatro partes iguales."
+"2 · Fracciones, decimales y porcentajes",Numerador,"Número de arriba en una fracción. En ¾, es 3."
+"2 · Fracciones, decimales y porcentajes",Denominador,"Número de abajo; indica entre cuántas partes iguales se divide la unidad. En ¾, es 4. No puede ser cero."
+"2 · Fracciones, decimales y porcentajes",Fracciones equivalentes,Fracciones que representan el mismo valor. Ejemplo: ½ = 2/4.
+"2 · Fracciones, decimales y porcentajes",Simplificar una fracción,Escribir una fracción equivalente dividiendo numerador y denominador por un factor común. Ejemplo: 6/8 = ¾.
+"2 · Fracciones, decimales y porcentajes",Número mixto,Combinación de un entero y una fracción propia. Ejemplo: 2½.
+"2 · Fracciones, decimales y porcentajes",Decimal,"Forma de escribir números usando posiciones como décimos y centésimos. Ejemplo: 0,75."
+"2 · Fracciones, decimales y porcentajes",Porcentaje,Cantidad expresada como partes de cada cien. Ejemplo: 25% = 25/100.
+"2 · Fracciones, decimales y porcentajes",Razón,Comparación entre dos cantidades mediante una división. Una razón de 2:3 compara dos unidades de una cantidad con tres de otra.
+"2 · Fracciones, decimales y porcentajes",Proporción,Igualdad entre dos razones. Ejemplo: ½ = 3/6.
+"2 · Fracciones, decimales y porcentajes",Tasa,Comparación entre cantidades con unidades diferentes. Ejemplo: kilómetros por hora.
+"2 · Fracciones, decimales y porcentajes",Tasa unitaria,"Tasa expresada por una unidad. Si recorres 120 kilómetros en 2 horas, la tasa es 60 kilómetros por hora."
+3 · Potencias y raíces,Potencia,Expresión que indica una multiplicación repetida cuando el exponente es un entero positivo. Ejemplo: 2³ = 2 × 2 × 2 = 8.
+3 · Potencias y raíces,Base de una potencia,"Número que se eleva al exponente. En 2³, la base es 2."
+3 · Potencias y raíces,Exponente,"Indica cuántas veces aparece la base como factor en una potencia de exponente entero positivo. En 2³, es 3."
+3 · Potencias y raíces,Cuadrado de un número,Resultado de elevarlo a la segunda potencia. Ejemplo: 5² = 25.
+3 · Potencias y raíces,Raíz cuadrada,"La raíz cuadrada principal de un número no negativo es el número no negativo que, multiplicado por sí mismo, produce ese valor. Ejemplo: √25 = 5."
+3 · Potencias y raíces,Notación científica,"Forma de escribir números mediante un número de valor absoluto entre uno y diez, sin incluir diez, multiplicado por una potencia de diez. Ejemplo: 300 000 = 3 × 10⁵."
+4 · Álgebra: letras que representan números,Variable,Letra o símbolo que representa un número que puede variar. Ejemplo: x.
+4 · Álgebra: letras que representan números,Incógnita,"Valor desconocido que buscas en un problema. En x + 3 = 8, la incógnita es x."
+4 · Álgebra: letras que representan números,Constante,"Cantidad fija. En 2x + 5, el término constante es 5."
+4 · Álgebra: letras que representan números,Coeficiente,"Factor numérico que multiplica a una variable. En 4x, el coeficiente es 4."
+4 · Álgebra: letras que representan números,Término algebraico,"Parte de una expresión separada de otras por sumas o restas. En 3x + 7, los términos son 3x y 7."
+4 · Álgebra: letras que representan números,Expresión algebraica,"Combinación de números, variables y operaciones. Ejemplo: 3x + 7."
+4 · Álgebra: letras que representan números,Términos semejantes,Términos con las mismas variables elevadas a los mismos exponentes. Ejemplo: 3x y 5x.
+4 · Álgebra: letras que representan números,Simplificar una expresión,Reescribirla de una forma equivalente más sencilla. Ejemplo: 3x + 5x = 8x.
+4 · Álgebra: letras que representan números,Evaluar una expresión,"Sustituir las variables por valores y calcular. Si x = 2, entonces 3x + 1 = 7."
+4 · Álgebra: letras que representan números,Propiedad distributiva,Regla para multiplicar por cada término dentro de un paréntesis: a(b + c) = ab + ac.
+4 · Álgebra: letras que representan números,Ecuación,Afirmación de que dos expresiones son iguales. Ejemplo: x + 3 = 8.
+4 · Álgebra: letras que representan números,Solución,"Valor que hace verdadera una ecuación o desigualdad. En x + 3 = 8, la solución es x = 5."
+4 · Álgebra: letras que representan números,Despejar,Aplicar operaciones válidas para dejar una variable sola.
+4 · Álgebra: letras que representan números,Desigualdad o inecuación,"Comparación entre expresiones mediante signos como <, >, ≤ y ≥."
+4 · Álgebra: letras que representan números,Ecuación lineal,"Ecuación que puede expresarse con variables de primer grado, sin productos entre ellas. Ejemplo: 2x + 3 = 9."
+4 · Álgebra: letras que representan números,Sistema de ecuaciones,Conjunto de ecuaciones que deben cumplirse al mismo tiempo.
+4 · Álgebra: letras que representan números,Polinomio,Expresión formada por sumas de términos con variables elevadas a exponentes enteros no negativos. Ejemplo: x² + 3x + 2.
+4 · Álgebra: letras que representan números,Factorización,Reescritura de una expresión como producto. Ejemplo: x² + 3x + 2 = (x + 1)(x + 2).
+4 · Álgebra: letras que representan números,Ecuación cuadrática,"Ecuación que puede escribirse como ax² + bx + c = 0, con a ≠ 0."
+5 · Geometría y medidas,Ángulo,Abertura formada por dos rayos que parten del mismo punto.
+5 · Geometría y medidas,Ángulo recto,Ángulo que mide 90°.
+5 · Geometría y medidas,Rectas paralelas,Rectas de un mismo plano que no se cruzan.
+5 · Geometría y medidas,Rectas perpendiculares,Rectas que se cruzan formando ángulos rectos.
+5 · Geometría y medidas,Triángulo,Figura de tres lados.
+5 · Geometría y medidas,Triángulo rectángulo,Triángulo que tiene un ángulo recto.
+5 · Geometría y medidas,Rectángulo,Cuadrilátero que tiene cuatro ángulos rectos.
+5 · Geometría y medidas,Cuadrado,Rectángulo cuyos cuatro lados tienen la misma longitud.
+5 · Geometría y medidas,Círculo,Región de un plano formada por los puntos cuya distancia a un centro es menor o igual que el radio.
+5 · Geometría y medidas,Radio,Segmento que va del centro de un círculo a su borde.
+5 · Geometría y medidas,Diámetro,Segmento que pasa por el centro y une dos puntos del borde; mide el doble del radio.
+5 · Geometría y medidas,Hipotenusa,Lado opuesto al ángulo recto en un triángulo rectángulo; es su lado más largo.
+5 · Geometría y medidas,Perímetro,Longitud total del contorno de una figura plana.
+5 · Geometría y medidas,Circunferencia,Borde de un círculo; su longitud se calcula con C = 2πr.
+5 · Geometría y medidas,Área,"Medida de la superficie de una figura. Se expresa en unidades cuadradas, como cm²."
+5 · Geometría y medidas,Volumen,"Medida del espacio que ocupa un cuerpo. Se expresa en unidades cúbicas, como cm³."
+5 · Geometría y medidas,Área de superficie,Suma de las áreas de las superficies exteriores de un cuerpo.
+5 · Geometría y medidas,Pi,"Constante representada por π, aproximadamente 3,1416; relaciona la longitud de una circunferencia con su diámetro."
+5 · Geometría y medidas,Teorema de Pitágoras,"Relación a² + b² = c² en un triángulo rectángulo, donde c es la hipotenusa."
+5 · Geometría y medidas,Conversión de unidades,Cambio de unidad sin cambiar la cantidad. Ejemplo: 1 m = 100 cm.
+6 · Gráficas y funciones,Plano cartesiano,Sistema de dos ejes perpendiculares que permite ubicar puntos.
+6 · Gráficas y funciones,Eje horizontal,Eje que normalmente se identifica con la letra x.
+6 · Gráficas y funciones,Eje vertical,Eje que normalmente se identifica con la letra y.
+6 · Gráficas y funciones,Origen,"Punto donde se cruzan los ejes: (0,0)."
+6 · Gráficas y funciones,Par ordenado,"Dos valores que indican la posición de un punto: (x,y). El orden importa."
+6 · Gráficas y funciones,Coordenadas,"Valores que permiten ubicar un punto. En (2,3), son 2 y 3."
+6 · Gráficas y funciones,Pendiente,Medida de cuánto cambia verticalmente una recta en relación con su cambio horizontal.
+6 · Gráficas y funciones,Intersección con el eje vertical,"Punto donde una gráfica cruza el eje y; allí, x = 0."
+6 · Gráficas y funciones,Función,Relación que asigna exactamente una salida a cada entrada permitida.
+6 · Gráficas y funciones,Función lineal,"En el contexto habitual de estas gráficas, función de la forma y = mx + b, cuya gráfica es una recta."
+6 · Gráficas y funciones,Tasa de cambio,"Comparación entre el cambio de una cantidad y el cambio de otra. En una recta no vertical, corresponde a su pendiente."
+7 · Estadística y probabilidad,Datos,Valores u observaciones que se recopilan para analizarlos.
+7 · Estadística y probabilidad,Media o promedio,Suma de los valores dividida entre la cantidad de valores.
+7 · Estadística y probabilidad,Mediana,"Valor central de los datos ordenados. Si hay dos valores centrales, se calcula su promedio."
+7 · Estadística y probabilidad,Moda,Valor o valores que aparecen con mayor frecuencia.
+7 · Estadística y probabilidad,Rango,Diferencia entre el valor mayor y el menor.
+7 · Estadística y probabilidad,Probabilidad,"Medida de qué tan posible es un suceso; se expresa entre cero y uno, o entre cero y cien por ciento."
+7 · Estadística y probabilidad,Resultado,"Una posibilidad individual de un experimento aleatorio, como obtener un tres al lanzar un dado."
+7 · Estadística y probabilidad,Suceso o evento,"Conjunto de resultados que cumplen una condición, como obtener un número par."
+8 · Palabras que debes reconocer en los problemas,El doble de una cantidad,Multiplicar por dos: 2x.
+8 · Palabras que debes reconocer en los problemas,El triple de una cantidad,Multiplicar por tres: 3x.
+8 · Palabras que debes reconocer en los problemas,La mitad de una cantidad,Dividir entre dos: x/2.
+8 · Palabras que debes reconocer en los problemas,Cinco más que una cantidad,x + 5.
+8 · Palabras que debes reconocer en los problemas,Cinco menos que una cantidad,x − 5.
+8 · Palabras que debes reconocer en los problemas,Al menos diez,Diez o más: x ≥ 10.
+8 · Palabras que debes reconocer en los problemas,Como máximo diez,Diez o menos: x ≤ 10.
+8 · Palabras que debes reconocer en los problemas,Más de diez,"Mayor que diez, sin incluirlo: x > 10."
+8 · Palabras que debes reconocer en los problemas,Menos de diez,"Menor que diez, sin incluirlo: x < 10."
+8 · Palabras que debes reconocer en los problemas,Por cada,Suele indicar una razón o una tasa.
+8 · Palabras que debes reconocer en los problemas,Estimar,Encontrar un valor aproximado.
+8 · Palabras que debes reconocer en los problemas,Redondear,"Aproximar un número a una posición indicada. Ejemplo: 4,76, redondeado a décimos, es 4,8."

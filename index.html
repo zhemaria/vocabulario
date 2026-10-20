@@ -49,7 +49,7 @@
   .selector{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin:0 0 8px}
   .selector button{background:var(--papel);border:2px solid var(--azul);color:var(--azul);border-radius:20px;padding:.15rem .9rem;font-size:.92rem}
   .selector button[aria-pressed="true"]{background:var(--azul);color:#fff}
-  .selector select{font:inherit;padding:.3rem .6rem;border:2px solid var(--azul);border-radius:6px;max-width:100%}
+  .selector select{font:inherit;font-size:.95rem;padding:.2rem .5rem;background:var(--papel);color:var(--tinta);border:2px solid var(--azul);border-radius:6px;max-width:100%}
   .mensaje{max-width:760px;margin:24px auto;background:var(--papel);border-left:6px solid var(--azul);padding:12px 16px;border-radius:4px}
 
   /* Tarjeta */
@@ -95,6 +95,8 @@
   .btn-pri{background:var(--azul);border:2px solid var(--azul);color:#fff;border-radius:6px;padding:.5rem 1.2rem}
 
   .tarjeta.repaso .dorso{box-shadow:0 0 0 4px var(--rojo),0 3px 10px rgba(0,0,0,.25)}
+  .solo-lector{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+  .selector .rotulo-lista{font-weight:700;align-self:center}
   .aviso{min-height:1.5em;text-align:center;color:var(--tinta);margin:4px 0;font-weight:700;font-size:.95rem}
 
   /* Resultado */
@@ -230,6 +232,7 @@
 </section>
 
 <p class="aviso" id="aviso" role="status" aria-live="polite"></p>
+<p class="solo-lector" id="anuncio" aria-live="polite"></p>
 
 <footer>
   <p>José M. Fernández, ABE/ASE Math Master Teacher, Harry S. Truman College — City Colleges of Chicago</p>
@@ -282,6 +285,7 @@ function avisar(t, fijo){
     if(!fijo) relojAviso = setTimeout(()=>{ a.textContent = ""; }, 4000);
   }, 40);
 }
+function anunciar(t){ const a=$("anuncio"); a.textContent=""; setTimeout(()=>a.textContent=t,40); }
 function limpiarAviso(){ clearTimeout(relojAviso); $("aviso").textContent = ""; }
 function claseTam(t){ const n=t.length; return n<=18?"t-xl":n<=45?"t-l":n<=110?"t-m":"t-s"; }
 function poner(el,t){ el.textContent=t; el.className="contenido "+claseTam(t); }
@@ -442,9 +446,11 @@ function dibujarListas(){
   const opcionesLista = [[null, "Todas (" + total + ")"]].concat([...listas.keys()].map(n=>[n, n + " (" + listas.get(n).length + ")"]));
   if(listas.size === 1){ sel.hidden = true; return; }
   sel.hidden = false;
-  if(opcionesLista.length > 9){
+  if(listas.size > 3){
+    const r = document.createElement("span"); r.className = "rotulo-lista"; r.id = "rotLista"; r.textContent = "Lista:";
+    sel.append(r);
     const s = document.createElement("select");
-    s.id = "menuListas"; s.setAttribute("aria-label", "Elegir lista de términos");
+    s.id = "menuListas"; s.setAttribute("aria-labelledby", "rotLista");
     opcionesLista.forEach(([v,t])=>{ const o=document.createElement("option"); o.value = v===null ? "" : v; o.textContent=t; s.append(o); });
     s.addEventListener("change", ()=>seleccionarLista(s.value || null));
     sel.append(s);
@@ -500,7 +506,7 @@ function voltear(){
   const c = caras(idxVisible());
   const visible = volteada ? c.rd + ": " + c.d : c.rf + ": " + c.f;
   tarjeta.setAttribute("aria-label", visible + ". Toca para volver.");
-  avisar(visible);
+  anunciar(visible);   /* solo para lectores de pantalla: la tarjeta ya lo muestra */
   if(opciones.leer && volteada) hablar(c.d);
 }
 

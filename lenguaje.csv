@@ -1,21 +1,76 @@
 ﻿lista,termino,definicion
-El proceso de escritura,Propósito,"La razón por la que se escribe un texto: informar, explicar, persuadir, narrar o entretener."
-El proceso de escritura,Audiencia,"Las personas a quienes va dirigido el texto; determina el vocabulario, el tono y el nivel de detalle."
-El proceso de escritura,Forma o formato,"El tipo de texto y su organización: carta, ensayo, informe, artículo, correo electrónico, etc."
-El proceso de escritura,Tema,El asunto general sobre el que trata el texto.
-El proceso de escritura,Tesis,La oración que expresa la idea central o la postura del autor; suele aparecer en la introducción.
-El proceso de escritura,Lluvia de ideas,"Etapa previa a la escritura en la que se anotan libremente todas las ideas sobre el tema, sin juzgarlas."
-El proceso de escritura,Borrador,"Primera versión completa del texto, que todavía se va a revisar y corregir."
-El proceso de escritura,Revisar,"Mejorar el contenido y la organización del texto: añadir, quitar, reordenar o aclarar ideas."
-El proceso de escritura,Editar,"Corregir la ortografía, la puntuación, la gramática y el uso de mayúsculas."
-El proceso de escritura,Publicar,Compartir la versión final del texto con su audiencia.
-El proceso de escritura,Detalles de apoyo,"Datos, ejemplos, razones o explicaciones que respaldan la idea principal."
-El proceso de escritura,Transición,"Palabra o expresión que enlaza ideas y muestra su relación: además, sin embargo, por lo tanto."
-El proceso de escritura,Conclusión,Parte final del texto que resume las ideas y cierra el tema.
-Comprensión lectora,Idea principal,Lo más importante que el autor quiere comunicar en un párrafo o en un texto.
-Comprensión lectora,Inferencia,Conclusión a la que llega el lector a partir de pistas del texto y de lo que ya sabe.
-Comprensión lectora,Propósito del autor,"La intención con que el autor escribe: informar, persuadir o entretener."
-Comprensión lectora,Punto de vista,La perspectiva desde la que se cuenta o se analiza un tema.
-Comprensión lectora,Hecho,Afirmación que se puede comprobar como verdadera o falsa.
-Comprensión lectora,Opinión,Afirmación que expresa lo que alguien piensa o siente; no se puede comprobar.
-Comprensión lectora,Evidencia,Información del texto que sirve para apoyar una afirmación o una respuesta.
+1 · Comprensión de lectura,Pasaje o fragmento,Parte de un texto que se presenta para leer y analizar.
+1 · Comprensión de lectura,Asunto,Aquello de lo que trata un texto en general. Ejemplo: la educación.
+1 · Comprensión de lectura,Idea principal,Lo más importante que el autor comunica sobre el asunto. Ejemplo: «La lectura diaria ayuda a ampliar el vocabulario».
+1 · Comprensión de lectura,Detalle de apoyo,"Dato, explicación o ejemplo que desarrolla la idea principal."
+1 · Comprensión de lectura,Información explícita,"Información que el texto dice directamente. Si dice «Ana llegó a las ocho», conocemos su hora de llegada."
+1 · Comprensión de lectura,Información implícita,Información que el texto sugiere sin decirla directamente.
+1 · Comprensión de lectura,Inferencia,Conclusión que obtienes al unir pistas del texto y razonamiento. No es adivinar sin fundamento.
+1 · Comprensión de lectura,Evidencia textual,"Palabras, datos o detalles del texto que respaldan una respuesta o interpretación."
+1 · Comprensión de lectura,Contexto,"Información que rodea una palabra, frase o situación y ayuda a comprenderla."
+1 · Comprensión de lectura,Pistas de contexto,Palabras cercanas que ayudan a deducir el significado de una palabra desconocida.
+1 · Comprensión de lectura,Resumen,"Versión breve de las ideas principales, sin agregar opiniones personales."
+1 · Comprensión de lectura,Paráfrasis,"Explicación de una idea con tus propias palabras, conservando su significado."
+"2 · Propósito, tono y organización del texto",Propósito del autor,"Razón por la que escribe: informar, persuadir, explicar o entretener, entre otras."
+"2 · Propósito, tono y organización del texto",Audiencia o destinatario,Público al que está dirigido el texto.
+"2 · Propósito, tono y organización del texto",Perspectiva del autor,Forma en que el autor entiende o presenta un asunto.
+"2 · Propósito, tono y organización del texto",Tono,"Actitud que transmite el lenguaje: seria, crítica, entusiasta, preocupada, etc."
+"2 · Propósito, tono y organización del texto",Estructura del texto,Forma en que están organizadas las ideas.
+"2 · Propósito, tono y organización del texto",Orden cronológico,Presentación de acontecimientos según el momento en que ocurrieron.
+"2 · Propósito, tono y organización del texto",Causa y efecto,Organización que explica por qué ocurre algo y cuáles son sus consecuencias.
+"2 · Propósito, tono y organización del texto",Comparación y contraste,Presentación de semejanzas y diferencias.
+"2 · Propósito, tono y organización del texto",Problema y solución,Presentación de una dificultad y una o varias maneras de resolverla.
+"2 · Propósito, tono y organización del texto",Descripción,"Explicación de las características de una persona, objeto, lugar o situación."
+"2 · Propósito, tono y organización del texto",Transición o conector,"Palabra o frase que relaciona ideas: «además», «sin embargo», «por lo tanto»."
+3 · Argumentos y pensamiento crítico,Argumento,Conjunto de razones y evidencias que busca apoyar una afirmación.
+3 · Argumentos y pensamiento crítico,Afirmación o postura,Idea que alguien sostiene o defiende.
+3 · Argumentos y pensamiento crítico,Tesis,Afirmación central que un escrito desarrolla y defiende.
+3 · Argumentos y pensamiento crítico,Evidencia,"Información que se usa para respaldar una afirmación: datos, ejemplos, documentos o testimonios pertinentes."
+3 · Argumentos y pensamiento crítico,Razonamiento,Explicación de cómo la evidencia apoya la afirmación.
+3 · Argumentos y pensamiento crítico,Hecho,Afirmación que puede comprobarse mediante evidencia.
+3 · Argumentos y pensamiento crítico,Opinión,"Juicio, preferencia o valoración personal."
+3 · Argumentos y pensamiento crítico,Contraargumento,Argumento que cuestiona una postura.
+3 · Argumentos y pensamiento crítico,Refutación,Respuesta razonada que busca mostrar las debilidades de un argumento contrario.
+3 · Argumentos y pensamiento crítico,Credibilidad,"Grado en que una fuente merece confianza por su conocimiento, precisión y respaldo."
+3 · Argumentos y pensamiento crítico,Sesgo,Inclinación que puede influir en la selección o presentación de información.
+3 · Argumentos y pensamiento crítico,Pertinencia,Relación directa de una evidencia con la afirmación que se está evaluando.
+3 · Argumentos y pensamiento crítico,Suficiencia de la evidencia,Si el apoyo presentado alcanza para justificar una conclusión.
+3 · Argumentos y pensamiento crítico,Generalización apresurada,Conclusión amplia basada en muy pocos casos.
+4 · Textos literarios y lenguaje figurado,Narrador,Voz que cuenta una historia. No necesariamente es el autor.
+4 · Textos literarios y lenguaje figurado,Personaje,Ser que participa en una historia.
+4 · Textos literarios y lenguaje figurado,Protagonista,Personaje principal.
+4 · Textos literarios y lenguaje figurado,Conflicto,Problema o lucha central: puede ser interno o contra una fuerza externa.
+4 · Textos literarios y lenguaje figurado,Trama,Conjunto de acontecimientos y su desarrollo en la historia.
+4 · Textos literarios y lenguaje figurado,Ambientación,"Lugar, época y entorno donde ocurre la historia."
+4 · Textos literarios y lenguaje figurado,Tema literario,"Idea de fondo que explora una obra, como la amistad, la injusticia o la perseverancia."
+4 · Textos literarios y lenguaje figurado,Primera persona,Narración desde un «yo» o «nosotros» que participa en lo contado.
+4 · Textos literarios y lenguaje figurado,Tercera persona,"Narración que habla de los personajes como «él», «ella» o «ellos»."
+4 · Textos literarios y lenguaje figurado,Lenguaje literal,Uso de palabras en su sentido directo. «La caja pesa diez kilos».
+4 · Textos literarios y lenguaje figurado,Lenguaje figurado,Uso expresivo que va más allá del sentido literal. «Llevo un mundo sobre los hombros».
+4 · Textos literarios y lenguaje figurado,Símil,"Comparación explícita, frecuentemente con «como»: «Corre como el viento»."
+4 · Textos literarios y lenguaje figurado,Metáfora,Identificación figurada entre dos cosas: «Sus palabras fueron un puente».
+4 · Textos literarios y lenguaje figurado,Personificación,Atribución de características humanas a algo no humano: «El viento susurraba».
+5 · Gramática y construcción de oraciones,Sustantivo,"Nombra personas, lugares, objetos o ideas: «estudiante», «ciudad», «libertad»."
+5 · Gramática y construcción de oraciones,Pronombre,"Puede sustituir a un sustantivo: «ella», «ellos», «nosotros»."
+5 · Gramática y construcción de oraciones,Verbo,"Expresa una acción, estado o proceso: «leer», «estar», «crecer»."
+5 · Gramática y construcción de oraciones,Adjetivo,Describe o caracteriza a un sustantivo: «libro interesante».
+5 · Gramática y construcción de oraciones,Adverbio,"Modifica un verbo, adjetivo u otro adverbio: «lee cuidadosamente»."
+5 · Gramática y construcción de oraciones,Sujeto,"Elemento con el que concuerda el verbo. En «Las alumnas leen», es «Las alumnas»."
+5 · Gramática y construcción de oraciones,Predicado,"Lo que se dice del sujeto; contiene el verbo. En el ejemplo anterior, es «leen»."
+5 · Gramática y construcción de oraciones,Concordancia,"Correspondencia gramatical: «Las alumnas están listas», no «Las alumnas está listas»."
+5 · Gramática y construcción de oraciones,Tiempo verbal,"Sitúa una acción en el tiempo: «estudié», «estudio», «estudiaré»."
+5 · Gramática y construcción de oraciones,Oración incompleta,"Fragmento que, presentado de manera aislada, deja una idea sin terminar: «Aunque estaba cansada…»."
+5 · Gramática y construcción de oraciones,Referente de un pronombre,Persona o cosa a la que se refiere el pronombre. Debe quedar claro.
+5 · Gramática y construcción de oraciones,Puntuación,Signos que organizan el escrito y aclaran sus relaciones y significado.
+6 · Escritura y respuesta extensa,Consigna,Instrucción que indica exactamente qué debes hacer.
+6 · Escritura y respuesta extensa,Respuesta extensa,Escrito desarrollado que responde a la consigna mediante análisis y evidencia.
+6 · Escritura y respuesta extensa,Introducción,Parte inicial que presenta el asunto y tu tesis.
+6 · Escritura y respuesta extensa,Párrafo de desarrollo,Parte donde explicas una idea y la respaldas con evidencia y análisis.
+6 · Escritura y respuesta extensa,Oración temática,Oración que expresa la idea central de un párrafo.
+6 · Escritura y respuesta extensa,Cita textual,"Reproducción exacta de palabras del texto, marcada como cita."
+6 · Escritura y respuesta extensa,Análisis,Explicación de cómo y por qué un detalle respalda una interpretación o argumento.
+6 · Escritura y respuesta extensa,Coherencia,Relación lógica entre las ideas del escrito.
+6 · Escritura y respuesta extensa,Cohesión,Conexión entre oraciones y párrafos mediante referencias y transiciones.
+6 · Escritura y respuesta extensa,Conclusión,Cierre que reúne el análisis y reafirma la tesis sin introducir un argumento nuevo sin desarrollar.
+6 · Escritura y respuesta extensa,Revisión,"Mejora del contenido, la organización y la claridad."
+6 · Escritura y respuesta extensa,Corrección,"Revisión de errores de gramática, ortografía y puntuación."

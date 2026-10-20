@@ -1,13 +1,45 @@
 ﻿lista,termino,definicion
-La célula,Célula,Unidad básica de estructura y función de todos los seres vivos.
-La célula,Membrana celular,Capa que rodea la célula y controla lo que entra y sale de ella.
-La célula,Núcleo,Organelo que contiene el material genético (ADN) y dirige las actividades de la célula.
-La célula,Mitocondria,Organelo donde se produce la energía de la célula mediante la respiración celular.
-La célula,Cloroplasto,Organelo de las células vegetales donde se realiza la fotosíntesis.
-La célula,Organelo,Estructura dentro de la célula que cumple una función específica.
-Genética,Gen,Segmento de ADN que contiene la información para una característica hereditaria.
-Genética,ADN,Molécula que contiene las instrucciones genéticas de un ser vivo.
-Genética,Cromosoma,Estructura formada por ADN muy enrollado que se encuentra en el núcleo.
-Genética,Alelo,Cada una de las formas distintas que puede tener un mismo gen.
-Genética,Rasgo dominante,Característica que se manifiesta aunque solo se herede un alelo que la produzca.
-Genética,Rasgo recesivo,Característica que solo se manifiesta cuando se heredan dos alelos iguales que la producen.
+1 · Investigación y método científico,Observación,"Información que obtienes usando los sentidos o instrumentos. Por ejemplo, medir la altura de una planta."
+1 · Investigación y método científico,Pregunta científica,Pregunta que se puede investigar mediante observaciones o pruebas. Ejemplo: «¿La cantidad de luz afecta el crecimiento de una planta?».
+1 · Investigación y método científico,Hipótesis,Explicación provisional que puede ponerse a prueba. Ejemplo: «La luz influye en el crecimiento de estas plantas».
+1 · Investigación y método científico,Predicción,Resultado que esperas observar si una explicación es correcta. Ejemplo: «Las plantas con más luz crecerán más».
+1 · Investigación y método científico,Experimento,Prueba organizada en la que se modifican condiciones para estudiar sus efectos.
+1 · Investigación y método científico,Investigación científica,Proceso de reunir y analizar evidencia para responder una pregunta. Puede incluir experimentos u observaciones.
+1 · Investigación y método científico,Procedimiento,Pasos que se siguen para realizar una investigación y permitir que otras personas puedan repetirla.
+1 · Investigación y método científico,Variable,"Característica que puede cambiar, como la temperatura, el tiempo o la altura."
+1 · Investigación y método científico,Variable independiente,Factor que el investigador cambia deliberadamente en un experimento.
+1 · Investigación y método científico,Variable dependiente,Resultado que se mide para saber cómo responde al cambio realizado.
+1 · Investigación y método científico,Variable controlada o constante,Condición que se mantiene igual para que no interfiera en la comparación.
+1 · Investigación y método científico,Grupo de control,Grupo de referencia con el que se comparan los resultados del tratamiento estudiado.
+1 · Investigación y método científico,Grupo experimental,Grupo que recibe el tratamiento o la condición que se quiere investigar.
+1 · Investigación y método científico,Muestra,"Parte de una población que se estudia para obtener información sobre ella. Por ejemplo, seleccionar algunos árboles de un bosque."
+1 · Investigación y método científico,Muestreo,Proceso utilizado para seleccionar la muestra.
+1 · Investigación y método científico,Datos,"Información recopilada: medidas, cantidades, categorías u observaciones."
+1 · Investigación y método científico,Evidencia,Datos u observaciones que permiten evaluar una afirmación.
+1 · Investigación y método científico,Resultados,"Lo que se obtuvo al realizar la investigación, como las medidas registradas."
+1 · Investigación y método científico,Conclusión,Interpretación de los resultados para responder la pregunta investigada. Debe estar respaldada por evidencia.
+1 · Investigación y método científico,Teoría científica,"Explicación amplia de fenómenos naturales, respaldada por abundante evidencia. No es simplemente una suposición."
+1 · Investigación y método científico,Modelo científico,"Representación simplificada de algo que ayuda a describirlo, estudiarlo o hacer predicciones."
+1 · Investigación y método científico,Inferencia,"Interpretación basada en observaciones y conocimientos, no en observar directamente lo que se concluye."
+1 · Investigación y método científico,Afirmación,Idea que se presenta como verdadera y que puede evaluarse mediante evidencia.
+1 · Investigación y método científico,Razonamiento científico,Uso de la lógica y la evidencia para evaluar explicaciones y sacar conclusiones.
+"2 · Datos, gráficas y cálculos científicos",Tabla de datos,Información organizada en filas y columnas para facilitar su lectura y comparación.
+"2 · Datos, gráficas y cálculos científicos",Gráfica de barras,Usa barras para comparar cantidades entre categorías o grupos.
+"2 · Datos, gráficas y cálculos científicos",Gráfica de líneas,"Une puntos para mostrar cómo cambia una cantidad, frecuentemente con el tiempo."
+"2 · Datos, gráficas y cálculos científicos",Diagrama,"Representación visual que explica estructuras, relaciones o procesos."
+"2 · Datos, gráficas y cálculos científicos",Eje horizontal,"Línea de izquierda a derecha de una gráfica, generalmente llamada eje x."
+"2 · Datos, gráficas y cálculos científicos",Eje vertical,"Línea de abajo hacia arriba de una gráfica, generalmente llamada eje y."
+"2 · Datos, gráficas y cálculos científicos",Escala,Valores e intervalos utilizados para representar cantidades en los ejes.
+"2 · Datos, gráficas y cálculos científicos",Tendencia,"Patrón general de los datos: aumento, disminución o estabilidad, por ejemplo."
+"2 · Datos, gráficas y cálculos científicos",Comparación,Identificación de semejanzas y diferencias entre datos o grupos.
+"2 · Datos, gráficas y cálculos científicos",Relación entre variables,Forma en que los valores de una variable se asocian con los de otra.
+"2 · Datos, gráficas y cálculos científicos",Proporción,"Comparación entre cantidades; en matemáticas, también puede referirse a la igualdad entre dos razones."
+"2 · Datos, gráficas y cálculos científicos",Porcentaje,Manera de expresar una cantidad como partes de cada cien.
+"2 · Datos, gráficas y cálculos científicos",Probabilidad,Medida de qué tan posible es que ocurra un suceso.
+"2 · Datos, gráficas y cálculos científicos",Media o promedio,Se obtiene sumando los valores y dividiendo entre la cantidad de valores.
+"2 · Datos, gráficas y cálculos científicos",Mediana,"Valor central después de ordenar los datos. Si hay dos valores centrales, se calcula su promedio."
+"2 · Datos, gráficas y cálculos científicos",Moda,Valor que aparece con mayor frecuencia. Puede haber varias modas o ninguna.
+"2 · Datos, gráficas y cálculos científicos",Rango,Diferencia entre el valor mayor y el menor.
+"2 · Datos, gráficas y cálculos científicos",Fórmula,Expresión matemática que representa una relación entre cantidades.
+"2 · Datos, gráficas y cálculos científicos",Unidad de medida,"Referencia utilizada para expresar una medición, como metros, segundos o gramos."
+"2 · Datos, gráficas y cálculos científicos",Conversión de unidades,Cambio de una unidad a otra sin cambiar la cantidad representada.
