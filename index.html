@@ -32,7 +32,7 @@
   :focus-visible{outline:3px solid var(--foco);outline-offset:3px}
 
   /* Ayuda y opciones */
-  .paneles{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end;margin-bottom:6px}
+  .paneles{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end;align-items:flex-start;margin-bottom:6px}
   details.panel{background:var(--papel);border:1px solid #c8cdd3;border-radius:8px;padding:.1rem .8rem;flex:1 1 260px;font-size:.95rem}
   details.panel summary{font-weight:700;cursor:pointer;padding:.2rem 0}
   details.panel ol,details.panel ul{margin:.3rem 0 .6rem;padding-left:1.3rem}
@@ -42,6 +42,7 @@
   .segmentos button{background:var(--papel);color:var(--azul);border:0;padding:.35rem .9rem}
   .segmentos button+button{border-left:2px solid var(--azul)}
   .segmentos button[aria-pressed="true"]{background:var(--azul);color:#fff}
+  .sel-voz{font:inherit;padding:.25rem .4rem;border:2px solid var(--azul);border-radius:6px;max-width:100%;margin:0 .4rem .3rem 0}
   kbd{border:1px solid #999;border-bottom-width:2px;border-radius:4px;padding:0 .35rem;background:#fafafa;font-size:.9em}
 
   /* Selector de bancos */
@@ -159,6 +160,19 @@
         <button type="button" data-op="leer" data-valor="si" aria-pressed="false">Sí</button>
         <button type="button" data-op="leer" data-valor="no" aria-pressed="true">No</button>
       </div>
+    </div>
+    <div class="grupo-op">
+      <span class="nombre-op" id="op4">Velocidad de lectura</span>
+      <div class="segmentos" role="group" aria-labelledby="op4">
+        <button type="button" data-op="velocidad" data-valor="0.7" aria-pressed="false">Lenta</button>
+        <button type="button" data-op="velocidad" data-valor="0.82" aria-pressed="true">Pausada</button>
+        <button type="button" data-op="velocidad" data-valor="1" aria-pressed="false">Normal</button>
+      </div>
+    </div>
+    <div class="grupo-op">
+      <span class="nombre-op" id="op5">Voz</span>
+      <select id="selVoz" class="sel-voz" aria-labelledby="op5"></select>
+      <button type="button" class="btn-sec" id="btnProbar">Probar</button>
     </div>
   </details>
 </div>
@@ -319,15 +333,47 @@ function organizar(filas){
   return mapa;
 }
 
-/* ---------- Voz ---------- */
+/* ---------- Voz ----------
+   Se elige la voz en español más natural que tenga el equipo:
+   1.º las «Natural/Online» de Microsoft Edge, 2.º las de Google,
+   3.º las demás. El estudiante puede cambiarla en «Opciones». */
+let voces = [], vozActual = null, velocidad = 0.82;
+const guardar = (k,v)=>{ try{ localStorage.setItem("vocab-"+k, v); }catch(e){} };
+const recordar = k=>{ try{ return localStorage.getItem("vocab-"+k); }catch(e){ return null; } };
+
+function puntaje(v){
+  let p = 0; const n = v.name.toLowerCase(), l = v.lang.toLowerCase();
+  if(/natural|online|neural/.test(n)) p += 40;
+  if(/google/.test(n)) p += 25;
+  if(/es[-_](us|mx|419)/.test(l)) p += 6;
+  else if(/es[-_]es/.test(l)) p += 3;
+  if(/paulina|monica|mónica|dalia|jorge|elvira|alvaro/.test(n)) p += 5;
+  return p;
+}
+
+function cargarVoces(){
+  if(!("speechSynthesis" in window)) return;
+  voces = speechSynthesis.getVoices().filter(v=>/^es/i.test(v.lang)).sort((a,b)=>puntaje(b)-puntaje(a));
+  const sel = $("selVoz"); sel.textContent = "";
+  if(!voces.length){
+    const o = document.createElement("option"); o.textContent = "No hay voces en español en este equipo"; sel.append(o);
+    sel.disabled = true; vozActual = null; return;
+  }
+  sel.disabled = false;
+  voces.forEach((v,k)=>{ const o=document.createElement("option"); o.value=v.name; o.textContent=v.name.replace(/^Microsoft /,"").replace(/ - Spanish.*$/,"") + " (" + v.lang + ")"; sel.append(o); });
+  const guardada = recordar("voz");
+  vozActual = voces.find(v=>v.name===guardada) || voces[0];
+  sel.value = vozActual.name;
+}
+
 function hablar(t){
   if(!("speechSynthesis" in window)){ avisar("Este navegador no puede leer en voz alta."); return; }
+  if(!voces.length) cargarVoces();
   speechSynthesis.cancel();
   const u = new SpeechSynthesisUtterance(t);
-  u.lang = "es-US"; u.rate = 0.9;
-  const v = speechSynthesis.getVoices().find(v=>v.lang.toLowerCase().startsWith("es"));
-  if(v) u.voice = v;
-  speechSynthesis.speak(u);
+  if(vozActual){ u.voice = vozActual; u.lang = vozActual.lang; } else u.lang = "es-US";
+  u.rate = velocidad; u.pitch = 1;
+  setTimeout(()=>speechSynthesis.speak(u), 60);   /* evita que Chrome corte el comienzo */
 }
 
 /* ---------- Materias y listas ---------- */
@@ -583,6 +629,7 @@ document.querySelectorAll(".segmentos button").forEach(b=>{
     b.parentElement.querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed", x===b));
     if(op==="primero"){ opciones.primero = v; if(banco) mostrar(); avisar(v==="termino" ? "Ahora se muestra primero el término." : "Ahora se muestra primero la definición."); }
     if(op==="barajar"){ opciones.barajar = (v==="si"); avisar("El orden se aplicará al empezar de nuevo."); }
+    if(op==="velocidad"){ velocidad = parseFloat(v); guardar("velocidad", v); hablar("Así sonará la lectura."); }
     if(op==="leer"){ opciones.leer = (v==="si"); avisar(v==="si" ? "Se leerá la respuesta al dar la vuelta." : "Lectura automática desactivada."); }
   });
 });
@@ -600,6 +647,21 @@ document.addEventListener("keydown", e=>{
   else if(e.key==="ArrowLeft"){ e.preventDefault(); responder(false); }
   else if(e.key===" " && !enControl){ e.preventDefault(); voltear(); }
 });
+
+$("selVoz").addEventListener("change", e=>{
+  vozActual = voces.find(v=>v.name===e.target.value) || vozActual;
+  guardar("voz", e.target.value); hablar("Hola. Esta es mi voz.");
+});
+$("btnProbar").addEventListener("click", ()=>hablar("Hola. Así se leerán las tarjetas de vocabulario."));
+if("speechSynthesis" in window){
+  cargarVoces();
+  speechSynthesis.addEventListener("voiceschanged", cargarVoces);
+}
+(function(){
+  const v = recordar("velocidad");
+  if(v){ velocidad = parseFloat(v);
+    document.querySelectorAll('[data-op="velocidad"]').forEach(b=>b.setAttribute("aria-pressed", b.dataset.valor===v)); }
+})();
 
 /* ---------- Arranque ---------- */
 (function(){
