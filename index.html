@@ -79,6 +79,7 @@
         background-image:repeating-linear-gradient(to bottom,transparent 0 9px,var(--linea) 9px 10px);
         border-top:6px solid var(--papel);display:flex;align-items:flex-end;justify-content:center;
         font-size:.8rem;padding:0 6px 3px;text-align:center;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+  .mini.mazo{box-shadow:0 1px 4px rgba(0,0,0,.25),3px -3px 0 -1px var(--papel),3px -3px 3px -1px rgba(0,0,0,.18),6px -6px 0 -2px var(--papel),6px -6px 3px -2px rgba(0,0,0,.15)}
   .mini span{overflow:hidden;text-overflow:ellipsis;max-width:100%}
   .btn-pila,.contador{width:100%;min-height:60px;border:0;color:#fff;font-size:1.2rem;display:flex;
                       align-items:center;justify-content:center;text-align:center;padding:8px}
@@ -185,7 +186,7 @@
       <button type="button" class="btn-pila rojo" id="btnNo">No lo sé (<span id="cNo">0</span>)</button>
     </div>
     <div class="pila">
-      <div class="mini" aria-hidden="true"><span id="miniQuedan"></span></div>
+      <div class="mini mazo" aria-hidden="true"></div>
       <div class="contador azul" id="contador">Quedan (<span id="cQuedan">0</span>)</div>
       <button type="button" class="btn-pila azul" id="btnSiguiente" hidden>Siguiente →</button>
     </div>
@@ -505,7 +506,7 @@ function actualizar(){
   $("cQuedan").textContent = mazo.length;
   $("miniNo").textContent = pilaNo.length ? caras(pilaNo[pilaNo.length-1]).f : "";
   $("miniSi").textContent = pilaSi.length ? caras(pilaSi[pilaSi.length-1]).f : "";
-  $("miniQuedan").textContent = mazo.length > 1 ? caras(mazo[1]).f : "";
+  /* la tarjetita del medio es solo el dibujo del mazo: no adelanta la próxima tarjeta */
   $("btnNo").disabled = $("btnSi").disabled = !mazo.length;
   $("btnDeshacer").disabled = !historial.length;
   $("btnBarajar").disabled = mazo.length < 2;
