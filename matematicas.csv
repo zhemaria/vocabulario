@@ -1,0 +1,15 @@
+﻿lista,termino,definicion
+Números y operaciones,Numerador,Número de arriba de una fracción; indica cuántas partes se toman.
+Números y operaciones,Denominador,Número de abajo de una fracción; indica en cuántas partes iguales se divide el entero.
+Números y operaciones,Fracción impropia,"Fracción cuyo numerador es mayor o igual que el denominador, como 7/4."
+Números y operaciones,Número mixto,"Número formado por un entero y una fracción, como 1 3/4."
+Números y operaciones,Porcentaje,Cantidad expresada como una parte de cien; 25 % equivale a 25/100.
+Números y operaciones,Razón,"Comparación entre dos cantidades mediante una división, como 3 : 5."
+Números y operaciones,Proporción,"Igualdad entre dos razones, como 2/3 = 4/6."
+Geometría,Perímetro,Longitud total del contorno de una figura plana.
+Geometría,Área,Medida de la superficie que ocupa una figura plana; se expresa en unidades cuadradas.
+Geometría,Volumen,Espacio que ocupa un cuerpo; se expresa en unidades cúbicas.
+Geometría,Radio,Segmento que une el centro de un círculo con cualquier punto de la circunferencia.
+Geometría,Diámetro,Segmento que pasa por el centro del círculo y une dos puntos de la circunferencia; mide el doble del radio.
+Geometría,Hipotenusa,"Lado más largo de un triángulo rectángulo, opuesto al ángulo recto."
+Geometría,Ángulo recto,Ángulo que mide exactamente 90°.
